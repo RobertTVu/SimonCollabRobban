@@ -1,0 +1,20 @@
+Testade Git skills.
+
+mkdir SimonCollabRobban
+cd SimonCollabRobban
+touch Text.fil
+
+git init
+git add Text.fil
+git add . (Lagt till VS c#)  (Nästa gång git add .gitignore ifall filerna är massiv.)
+git commit -m "meddlande."
+
+Ifall main heter Main/Master ändra görs:
+git branch -M "main"
+
+Github -> Ny repo > SimonCollobRobban > Hämta Http Addressen.
+
+
+
+git remote add origin https://github.com/username/SimonCollabRobban.git
+git push -u origin main
